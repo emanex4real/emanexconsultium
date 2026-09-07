@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0a1128, #001233);
+  color: #f0f0f0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #4cc9f0;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #4cc9f0;
+}
+
+.search input {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: #14213d;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #4cc9f0;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #cfcfcf;
+  margin-bottom: 30px;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 30px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #4cc9f0;
+  color: #001233;
+}
+
+.btn-secondary {
+  border: 2px solid #4cc9f0;
+  color: #4cc9f0;
+}
+
+.services, .about, .contact {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: #14213d;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 260px;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 20px auto 0;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 0.85rem;
+}

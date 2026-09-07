@@ -1,0 +1,17 @@
+{
+  "name": "emanexconsultium",
+  "version": "1.0.0",
+  "description": "Emanex Consultium - technology consulting landing page",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
